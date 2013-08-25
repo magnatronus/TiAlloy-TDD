@@ -1,0 +1,168 @@
+Logfile initialized
+[INFO] logfile = /Users/accountone/Titanium/SpiralArm/TiTDD/build.log
+[INFO] logfile = /Users/accountone/Titanium/SpiralArm/TiTDD/build.log
+[DEBUG] /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/builder.py emulator TiTDD /Users/accountone/Development/android-sdk-macosx /Users/accountone/Titanium/SpiralArm/TiTDD uk.co.spiralarm.titdd 9 WVGA854 armeabi-v7a
+[DEBUG] /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/builder.py simulator TiTDD /Users/accountone/Development/android-sdk-macosx /Users/accountone/Titanium/SpiralArm/TiTDD uk.co.spiralarm.titdd 9 WVGA854
+[INFO] Building TiTDD for Android ... one moment
+[INFO] Launching Android emulator...one moment
+[DEBUG] From: /Users/accountone/Development/android-sdk-macosx/tools/emulator
+[DEBUG] SDCard: /Users/accountone/.titanium/android2.sdcard
+[DEBUG] AVD ID: 9
+[DEBUG] AVD Skin: WVGA854
+[DEBUG] AVD ABI: armeabi-v7a
+[DEBUG] SDK: /Users/accountone/Development/android-sdk-macosx
+[INFO] Emulator is running.
+[INFO] plugin=/Users/accountone/Library/Application Support/Titanium/plugins/ti.alloy/1.0/plugin.py
+[INFO] Detected compiler plugin: ti.alloy/1.0
+[INFO] Titanium SDK version: 3.1.2 (08/14/13 12:45 5ceaff8)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.017587 seconds on emulator to get ready
+[DEBUG] uk.co.spiralarm.titdd installed? True
+[WARN] Fastdev enabled, but server isn't running, deploying normally
+[INFO] Copying CommonJS modules...
+[INFO] Copying project resources..
+[INFO] Detected change in tiapp.xml, or assets deleted. Forcing full re-build...
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/alloy/backbone.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/alloy/backbone.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/alloy/constants.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/alloy/constants.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/alloy/controllers/BaseController.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/alloy/controllers/BaseController.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/alloy/controllers/index.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/alloy/controllers/index.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/alloy/styles/index.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/alloy/styles/index.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/alloy/sync/localStorage.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/alloy/sync/localStorage.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/alloy/sync/properties.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/alloy/sync/properties.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/alloy/sync/sql.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/alloy/sync/sql.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/alloy/sync/util.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/alloy/sync/util.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/alloy/underscore.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/alloy/underscore.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/alloy/widget.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/alloy/widget.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/alloy/widgets/jut/controllers/widget.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/alloy/widgets/jut/controllers/widget.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/alloy/widgets/jut/styles/widget.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/alloy/widgets/jut/styles/widget.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/alloy.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/alloy.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/alloy/CFG.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/alloy/CFG.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/appicon.png => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/appicon.png
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/default.png => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/default.png
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/app.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/app.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/jut/jasmine.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/jut/jasmine.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/jut/JUTRep.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/jut/JUTRep.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/Player.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/Player.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/Song.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/Song.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/spec/jutspec.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/spec/jutspec.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/spec/PlayerSpec.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/spec/PlayerSpec.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/spec/SpecHelper.js => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/spec/SpecHelper.js
+[TRACE] COPYING CREATED FILE: /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/tizen/appicon.png => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/tizen/appicon.png
+[DEBUG] LiveView not enabled
+[TRACE] Generating Java Classes
+[DEBUG] Processing Android resource drawables
+[DEBUG] app stylesheet => /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/gen/uk/co/spiralarm/titdd/ApplicationStylesheet.java
+[DEBUG] copying app icon: /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/appicon.png
+[DEBUG] generating theme.xml
+[DEBUG] found drawable-long-land-hdpi splash screen at /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-long-land-hdpi/default.png
+[DEBUG] copying /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-long-land-hdpi/default.png splash screen to /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/res/drawable-long-land-hdpi/background.png
+[DEBUG] found drawable-long-land-ldpi splash screen at /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-long-land-ldpi/default.png
+[DEBUG] copying /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-long-land-ldpi/default.png splash screen to /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/res/drawable-long-land-ldpi/background.png
+[DEBUG] found drawable-long-port-hdpi splash screen at /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-long-port-hdpi/default.png
+[DEBUG] copying /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-long-port-hdpi/default.png splash screen to /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/res/drawable-long-port-hdpi/background.png
+[DEBUG] found drawable-long-port-ldpi splash screen at /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-long-port-ldpi/default.png
+[DEBUG] copying /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-long-port-ldpi/default.png splash screen to /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/res/drawable-long-port-ldpi/background.png
+[DEBUG] found drawable-notlong-land-hdpi splash screen at /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-notlong-land-hdpi/default.png
+[DEBUG] copying /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-notlong-land-hdpi/default.png splash screen to /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/res/drawable-notlong-land-hdpi/background.png
+[DEBUG] found drawable-notlong-land-ldpi splash screen at /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-notlong-land-ldpi/default.png
+[DEBUG] copying /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-notlong-land-ldpi/default.png splash screen to /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/res/drawable-notlong-land-ldpi/background.png
+[DEBUG] found drawable-notlong-land-mdpi splash screen at /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-notlong-land-mdpi/default.png
+[DEBUG] copying /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-notlong-land-mdpi/default.png splash screen to /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/res/drawable-notlong-land-mdpi/background.png
+[DEBUG] found drawable-notlong-port-hdpi splash screen at /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-notlong-port-hdpi/default.png
+[DEBUG] copying /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-notlong-port-hdpi/default.png splash screen to /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/res/drawable-notlong-port-hdpi/background.png
+[DEBUG] found drawable-notlong-port-ldpi splash screen at /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-notlong-port-ldpi/default.png
+[DEBUG] copying /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-notlong-port-ldpi/default.png splash screen to /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/res/drawable-notlong-port-ldpi/background.png
+[DEBUG] found drawable-notlong-port-mdpi splash screen at /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-notlong-port-mdpi/default.png
+[DEBUG] copying /Users/accountone/Titanium/SpiralArm/TiTDD/Resources/android/images/res-notlong-port-mdpi/default.png splash screen to /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/res/drawable-notlong-port-mdpi/background.png
+[DEBUG] found splash screen at /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/assets/Resources/default.png
+[TRACE] Writing out AndroidManifest.xml
+[DEBUG] adding /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/gen/uk/co/spiralarm/titdd/ApplicationStylesheet.java to javac build list
+[DEBUG] adding /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/gen/uk/co/spiralarm/titdd/R.java to javac build list
+[DEBUG] adding /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/gen/uk/co/spiralarm/titdd/TitddActivity.java to javac build list
+[DEBUG] adding /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/gen/uk/co/spiralarm/titdd/TitddAppInfo.java to javac build list
+[DEBUG] adding /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/gen/uk/co/spiralarm/titdd/TitddApplication.java to javac build list
+[DEBUG] Building Java Sources: "/Users/accountone/Titanium/SpiralArm/TiTDD/build/android/gen/uk/co/spiralarm/titdd/ApplicationStylesheet.java" "/Users/accountone/Titanium/SpiralArm/TiTDD/build/android/gen/uk/co/spiralarm/titdd/R.java" "/Users/accountone/Titanium/SpiralArm/TiTDD/build/android/gen/uk/co/spiralarm/titdd/TitddActivity.java" "/Users/accountone/Titanium/SpiralArm/TiTDD/build/android/gen/uk/co/spiralarm/titdd/TitddAppInfo.java" "/Users/accountone/Titanium/SpiralArm/TiTDD/build/android/gen/uk/co/spiralarm/titdd/TitddApplication.java"
+[INFO] Compiling Android Resources... This could take some time
+[DEBUG] Android classes.dex built
+[DEBUG] creating unsigned apk: /Users/accountone/Titanium/SpiralArm/TiTDD/build/android/bin/app-unsigned.apk
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/BaseController.js
+[DEBUG] from resource zip => assets/Resources/alloy/controllers/index.js
+[DEBUG] from resource zip => assets/Resources/alloy/styles/index.js
+[DEBUG] from resource zip => assets/Resources/alloy/sync/localStorage.js
+[DEBUG] from resource zip => assets/Resources/alloy/sync/properties.js
+[DEBUG] from resource zip => assets/Resources/alloy/sync/sql.js
+[DEBUG] from resource zip => assets/Resources/alloy/sync/util.js
+[DEBUG] from resource zip => assets/Resources/alloy/widgets/jut/controllers/widget.js
+[DEBUG] from resource zip => assets/Resources/alloy/widgets/jut/styles/widget.js
+[DEBUG] from resource zip => assets/Resources/alloy/CFG.js
+[DEBUG] from resource zip => assets/Resources/alloy/backbone.js
+[DEBUG] from resource zip => assets/Resources/alloy/constants.js
+[DEBUG] from resource zip => assets/Resources/alloy/underscore.js
+[DEBUG] from resource zip => assets/Resources/alloy/widget.js
+[DEBUG] from resource zip => assets/Resources/jut/JUTRep.js
+[DEBUG] from resource zip => assets/Resources/jut/jasmine.js
+[DEBUG] from resource zip => assets/Resources/spec/PlayerSpec.js
+[DEBUG] from resource zip => assets/Resources/spec/SpecHelper.js
+[DEBUG] from resource zip => assets/Resources/spec/jutspec.js
+[DEBUG] from resource zip => assets/Resources/tizen/appicon.png
+[DEBUG] from resource zip => assets/Resources/Player.js
+[DEBUG] from resource zip => assets/Resources/Song.js
+[DEBUG] from resource zip => assets/Resources/alloy.js
+[DEBUG] from resource zip => assets/Resources/app.js
+[DEBUG] from resource zip => assets/Resources/appicon.png
+[DEBUG] from resource zip => assets/Resources/default.png
+[DEBUG] from resource zip => assets/app.json
+[DEBUG] from resource zip => assets/index.json
+[DEBUG] from resource zip => res/drawable/appicon.png
+[DEBUG] from resource zip => res/drawable/background.png
+[DEBUG] from resource zip => res/drawable/btn_check_buttonless_on_64.png
+[DEBUG] from resource zip => res/drawable/btn_more_64.png
+[DEBUG] from resource zip => res/drawable/disclosure_64.png
+[DEBUG] from resource zip => res/layout/titanium_tabgroup.xml
+[DEBUG] from resource zip => res/layout/titanium_ui_list_header_or_footer.xml
+[DEBUG] from resource zip => res/layout/titanium_ui_list_item.xml
+[DEBUG] from resource zip => AndroidManifest.xml
+[DEBUG] from resource zip => resources.arsc
+[DEBUG] from resource zip => res/drawable-long-land-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-long-land-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-long-port-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-long-port-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-mdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-mdpi/background.png
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/titanium.jar => org/appcelerator/titanium/build.properties
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/background.png
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_64.png
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_64.png
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/polling.js
+[DEBUG] from JAR /Users/accountone/Library/Application Support/Titanium/mobilesdk/osx/3.1.2.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/polling.min.js
+[DEBUG] installing native SDK libs
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.019763 seconds on emulator to get ready
+[INFO] Installing application on emulator
+[INFO] Launching application ... TiTDD
+[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=uk.co.spiralarm.titdd/.TitddActivity }
+
+[INFO] Deployed TiTDD ... Application should be running.
+[INFO] Android Emulator has exited

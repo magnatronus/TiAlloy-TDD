@@ -1,0 +1,12 @@
+"Label": {
+	color: '#FFFF00',
+	font: { fontSize: 14, fontFamily: 'arial'},
+	height: Ti.UI.SIZE,
+	left: '5dp',
+	right: '5dp',
+	textAlign: 'left'
+},
+".console":{
+	backgroundColor: '#EAEAEA',
+	layout: 'vertical'
+}

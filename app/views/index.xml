@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container">
+		<Widget id='tester' src="jut" spec="PlayerSpec,SpecHelper"/>
+	</Window>
+</Alloy>
