@@ -30,10 +30,10 @@ describe("Player", function() {
       expect(player.isPlaying).toBeFalsy();
 
       // demonstrates use of 'not' with a custom matcher
-      expect(player).not.toBePlaying(song);
+      //expect(player).not.toBePlaying(song);
 
 	  // this version will cause a failure
-      //expect(player).toBePlaying(song);
+      expect(player).toBePlaying(song);
      
     });
 

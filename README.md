@@ -22,9 +22,12 @@ Steve Rogers. Based on the TiJamine module code by Bill Dawson.
  Just see the main project index.xml for an example.
  
  
-## Caveat
-
+## Notes
 - This is a test project that I created after looking at Bill Dawson's TiJasmine module and using it to understand more about Jasmine and how it could be used in a TiAlloy app.
   The result is this project that I hope may be of use to others. 
 
+## Updates
+- 27 Aug 2013 - added  a CommonJS module that simulates a simple vending machine along with a test Spec for the module
 
+
+## [Licence](http://creativecommons.org/licenses/by-nc/3.0/)
