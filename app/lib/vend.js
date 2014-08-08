@@ -14,6 +14,7 @@
  *
  * 27 Aug 2013 - Updated version after Unit Testing with TiAlloy-TDD
  * 
+ * @class lib.vend
  */
 
 
@@ -140,7 +141,7 @@ function machine(coins){
 
 
 
-/**
+/*
  * Export our module functionality
  */
 module.exports = machine;

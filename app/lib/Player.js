@@ -1,3 +1,10 @@
+/**
+ * Player Module
+ *  
+ * @class lib.Player
+ */
+
+
 function Player() {
 };
 

@@ -1,1 +1,6 @@
-Place your change log text here.  This file will be incorporated with your app at package time.
+1.0.1 - First Release
+
+1.0.2 - Additional Functionality
+ - updated the JUT Logger, Reporter and Widget functionality
+ - JUT widget namespaced
+ - demo project auto documents itself using sa.duckandcover

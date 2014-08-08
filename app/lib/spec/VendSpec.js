@@ -1,3 +1,8 @@
+/**
+ * A Jasmine Test Spec for the lib.vend module
+ * 
+ * @class spec.VendSpec
+ */
 var Vend = require('vend');
 
 describe("The Vending Machine", function() {

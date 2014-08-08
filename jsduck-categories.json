@@ -1,0 +1,29 @@
+[
+	{	
+		"name":"Controllers",
+		"groups":[
+			{ "name":"App", "classes":["app.*"] }
+		]
+	},
+	
+	{
+		"name":"Libraries",
+		"groups":[
+			{"name":"support libraries","classes":["lib.*"] }
+		]
+	},
+	
+	{
+		"name":"Test Specs",
+		"groups":[
+			{"name":"support libraries","classes":["spec.*"] }
+		]
+	},
+	
+	{
+		"name":"Widgets",
+		"groups":[
+			{"name":"project widgets","classes":["widgets.*"]}
+		]
+	}
+]

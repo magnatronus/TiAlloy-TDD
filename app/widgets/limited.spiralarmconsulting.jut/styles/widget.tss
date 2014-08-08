@@ -1,0 +1,38 @@
+/**
+ * 	Styles for the JUT "Widget"
+ */
+
+/* Main Container */
+".jutContainer":{
+	backgroundColor: '#E6E6E6'
+},
+
+/* Jasmine Version Label */
+"#jasmineVersion":{
+	left: '10dp',
+	top: '25dp',
+	color: '#4C4C4C',
+	font: {fontSize: '14dp', fontWeight: 'bold'},
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE	
+},
+
+/* Test Time Label */
+"#jutTimeTaken":{
+	right: '10dp',
+	top: '25dp',
+	color: '#4C4C4C',
+	font: {fontSize: '14dp'},
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE		
+},
+
+
+/* JUT "console" */
+"#jutConsole":{
+	layout: 'vertical',
+	backgroundColor: '#E6E6E6',
+	top: '60dp'
+}
+
+

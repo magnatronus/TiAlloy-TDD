@@ -8,6 +8,6 @@
     "os:ios": {},
     "os:mobileweb": {},
     "dependencies": {
-        "jut": "1.0"
+        "limited.spiralarmconsulting.jut": "1.0"
     }
 }

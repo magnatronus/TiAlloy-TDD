@@ -1,0 +1,7 @@
+<Alloy>
+	<View class="jutContainer">
+		<Label id="jasmineVersion" />
+		<Label id="jutTimeTaken" />
+		<ScrollView id="jutConsole" />
+	</View>
+</Alloy>

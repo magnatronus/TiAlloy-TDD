@@ -1,3 +1,9 @@
+/**
+ * Song Module
+ * 
+ * @class lib.Song
+ */
+
 function Song() {
 }
 

@@ -2,11 +2,11 @@
 <ti:app xmlns:ti="http://ti.appcelerator.org">
     <id>uk.co.spiralarm.titdd</id>
     <name>TiTDD</name>
-    <version>1.0.1</version>
-    <publisher>accountone</publisher>
+    <version>1.0.2</version>
+    <publisher>SpiralArm Consulting Limited</publisher>
     <url>http://www.spiralarm.co.uk</url>
-    <description>not specified</description>
-    <copyright>2013 by accountone</copyright>
+    <description>An Alloy Test App to show the use of the Jasmin Testing Widget</description>
+    <copyright>2013, 2014 SpiralArm Consulting Ltd</copyright>
     <icon>appicon.png</icon>
     <persistent-wifi>false</persistent-wifi>
     <prerendered-icon>false</prerendered-icon>
@@ -46,9 +46,10 @@
         <target device="mobileweb">false</target>
         <target device="tizen">false</target>
     </deployment-targets>
-    <sdk-version>3.1.2.GA</sdk-version>
+    <sdk-version>3.3.0.GA</sdk-version>
     <plugins>
         <plugin version="1.0">ti.alloy</plugin>
+        <plugin version="1.0">sa.duckandcover</plugin>
     </plugins>
     <property name="ti.deploytype">development</property>
 </ti:app>

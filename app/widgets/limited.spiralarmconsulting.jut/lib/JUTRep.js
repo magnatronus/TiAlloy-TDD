@@ -1,12 +1,22 @@
 /**
  * JUT Widget Jasmine Reporter
  * 
+ * Reporter class for the Alloy JUT widger
+ * 
  * @author: Steve Rogers (www.spiralarm.co.uk)
  * 
- * 
+ * @class widgets.limited.spiralarmconsulting.jut.JUTRep
  */
 
 
+/**
+ * Create a new JUTReporter
+ * 
+ * @method JUTReporter
+ * @constructor
+ * @param {Object} out Our Reporter
+ * @param {Function} endCallback optional callback run after tests are completed
+ */
 function JUTReporter(out,endCallback){
 	
 	var self = this;
@@ -29,7 +39,7 @@ function JUTReporter(out,endCallback){
     		self.results[suite.id] = {name: suite.description, pid: (suite.parentSuite)?suite.parentSuite.id:-1, specs: []};
 		}
   		
-		out.info(">> Runner Started");	
+		out.info("Testing Started");	
 
     };
 	
@@ -48,11 +58,14 @@ function JUTReporter(out,endCallback){
 			});
 		}
 		
-		// Id a failure detected display test results - currently only 2 deep should really recurse
+		// If a failure detected display test results - currently only 2 deep should really recurse
+		var timeTaken = 'finished in ' + (elapsed/1000) + 's';
 		if (self.failedCount) {
-			out.infoerror('>> Runner Finished - Passed ' + self.passedCount + ' specs. Failed ' + self.failedCount + ' specs. Finished in ' + (elapsed/1000) + 's');	
+			out.infoerror('Passed ' + self.passedCount + ' specs. Failed ' + self.failedCount + ' specs.');
+			out.time(timeTaken);	
 		} else {
-			out.info('>> Runner Finished - Passed ' + self.passedCount + ' specs. Failed ' + self.failedCount + ' specs. Finished in ' + (elapsed/1000) + 's');	
+			out.info('Passing ' + self.passedCount + ' specs.');	
+			out.time(timeTaken);	
 		}
 			
 			
@@ -63,6 +76,8 @@ function JUTReporter(out,endCallback){
 	
 	/**
 	 * Descend our results and display them
+	 * 
+	 * @method RecursiveReporter
  	 * @param {Object} id
  	 * @param {Object} level
 	 */
@@ -72,25 +87,33 @@ function JUTReporter(out,endCallback){
 		var indent  = Array(level*2).join(" ");
 			
 		self.results.forEach(function(result, idx){
+			
+			Ti.API.info(result);
 				
 			// only use the level we are interested in
 			if(result.pid == id){	
-					
-				(result.result=='failed')?out.error(indent + result.name + ' - Failed'):out.passed(indent+ result.name + ' - Passed');
+				
+				
+				// did we pass or fail	
+				(result.result=='failed')?out.testerror(indent + result.name):out.testpassed(indent+ result.name);
+				
+				// dump each spec
 				result.specs.forEach(function(spec){
-					(spec.passed)?out.passed(indent + indent + spec.description):out.error(indent + indent+ spec.description);
+					(spec.passed)?out.passed(indent + indent + ' - ' + spec.description):out.error(indent + indent+ ' - ' +  spec.description);
 					if(spec.items){
 						spec.items.forEach(function(msg){
-							out.warning(indent + indent + ' --- ' + msg);
+							out.warning(indent + indent + indent + msg);
+							out.log();
 						});
 					}
 				});
-				out.log('-');
+				out.log();
 					
 				// now see if we have children
 				RecursiveReporter(idx,level*=2);
 
 			}
+			
 					
 		});
 	}
@@ -104,7 +127,7 @@ function JUTReporter(out,endCallback){
     
     // We are running a test Suite
     self.reportSpecStarting = function(spec){
-		out.log('>> Running ' + spec.suite.description + ' ' + spec.description + '...');    	
+		out.log(' * Running ' + spec.suite.description + ' [' + spec.description + ']');    	
     };
     
     // We have the results of a spec 
